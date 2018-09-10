@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		089B8BD821462DD300BEA656 /* testCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089B8BD721462DD300BEA656 /* testCount.swift */; };
 		08DC3895214629C50075B788 /* linq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DC388B214629C50075B788 /* linq.framework */; };
 		08DC389A214629C50075B788 /* linqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC3899214629C50075B788 /* linqTests.swift */; };
 		08DC389C214629C50075B788 /* linq.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DC388E214629C50075B788 /* linq.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		089B8BD721462DD300BEA656 /* testCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCount.swift; sourceTree = "<group>"; };
 		08DC388B214629C50075B788 /* linq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = linq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DC388E214629C50075B788 /* linq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linq.h; sourceTree = "<group>"; };
 		08DC388F214629C50075B788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				08DC3899214629C50075B788 /* linqTests.swift */,
 				08DC389B214629C50075B788 /* Info.plist */,
+				089B8BD721462DD300BEA656 /* testCount.swift */,
 			);
 			path = linqTests;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08DC389A214629C50075B788 /* linqTests.swift in Sources */,
+				089B8BD821462DD300BEA656 /* testCount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
