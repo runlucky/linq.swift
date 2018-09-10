@@ -8,11 +8,6 @@
 
 import Foundation
 
-public class linq {
-    public func hello() -> String { return "world" }
-}
-
-
 extension Sequence {
     public func count(_ match: (Element) -> Bool) -> Int {
         return reduce(0) { n, element in match(element) ? n + 1 : n }

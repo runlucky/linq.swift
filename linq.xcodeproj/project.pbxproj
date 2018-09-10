@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		089B8BD821462DD300BEA656 /* testCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089B8BD721462DD300BEA656 /* testCount.swift */; };
 		08DC3895214629C50075B788 /* linq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DC388B214629C50075B788 /* linq.framework */; };
-		08DC389A214629C50075B788 /* linqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC3899214629C50075B788 /* linqTests.swift */; };
 		08DC389C214629C50075B788 /* linq.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DC388E214629C50075B788 /* linq.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08DC38A6214629FD0075B788 /* linq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC38A5214629FD0075B788 /* linq.swift */; };
 /* End PBXBuildFile section */
@@ -30,7 +29,6 @@
 		08DC388E214629C50075B788 /* linq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linq.h; sourceTree = "<group>"; };
 		08DC388F214629C50075B788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08DC3894214629C50075B788 /* linqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		08DC3899214629C50075B788 /* linqTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linqTests.swift; sourceTree = "<group>"; };
 		08DC389B214629C50075B788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08DC38A5214629FD0075B788 /* linq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linq.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,7 +83,6 @@
 		08DC3898214629C50075B788 /* linqTests */ = {
 			isa = PBXGroup;
 			children = (
-				08DC3899214629C50075B788 /* linqTests.swift */,
 				08DC389B214629C50075B788 /* Info.plist */,
 				089B8BD721462DD300BEA656 /* testCount.swift */,
 			);
@@ -209,7 +206,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08DC389A214629C50075B788 /* linqTests.swift in Sources */,
 				089B8BD821462DD300BEA656 /* testCount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

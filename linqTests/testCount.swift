@@ -15,7 +15,6 @@ class testCount: XCTestCase {
     func testCountup() {
         XCTAssertEqual(list.count, 5)
         XCTAssertEqual(list.count { $0 < 4 }, 3)
-        XCTAssertEqual(list.count(3), 2)
     }
 
     func testEquatable() {
