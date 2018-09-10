@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		086CB70F21466BDF0016F1B9 /* testSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CB70E21466BDF0016F1B9 /* testSort.swift */; };
+		086CB71121466D580016F1B9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 086CB71021466D580016F1B9 /* README.md */; };
 		089B8BD821462DD300BEA656 /* testCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089B8BD721462DD300BEA656 /* testCount.swift */; };
 		08DC3895214629C50075B788 /* linq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DC388B214629C50075B788 /* linq.framework */; };
 		08DC389C214629C50075B788 /* linq.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DC388E214629C50075B788 /* linq.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		086CB70E21466BDF0016F1B9 /* testSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testSort.swift; sourceTree = "<group>"; };
+		086CB71021466D580016F1B9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		089B8BD721462DD300BEA656 /* testCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCount.swift; sourceTree = "<group>"; };
 		08DC388B214629C50075B788 /* linq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = linq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DC388E214629C50075B788 /* linq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linq.h; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		08DC3881214629C50075B788 = {
 			isa = PBXGroup;
 			children = (
+				086CB71021466D580016F1B9 /* README.md */,
 				08DC388D214629C50075B788 /* linq */,
 				08DC3898214629C50075B788 /* linqTests */,
 				08DC388C214629C50075B788 /* Products */,
@@ -191,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086CB71121466D580016F1B9 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

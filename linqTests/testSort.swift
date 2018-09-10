@@ -38,7 +38,7 @@ class testSort: XCTestCase {
 
     func testSorted() {
         XCTAssertEqual(list.sorted(), [1, 2, 3, 3, 5])
-        XCTAssertEqual(users.sorted { $0.id < $1.id}, ascending)
+        XCTAssertEqual(users.sorted { $0.id < $1.id }, ascending)
         XCTAssertEqual(users.sorted { $0.id }, ascending)
     }
 
