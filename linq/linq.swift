@@ -8,16 +8,30 @@
 
 import Foundation
 
-extension Sequence {
-    public func count(_ match: (Element) -> Bool) -> Int {
-        return reduce(0) { n, element in match(element) ? n + 1 : n }
+public extension Sequence {
+    public func count(_ predicate: (Element) -> Bool) -> Int {
+        return reduce(0) { n, element in predicate(element) ? n + 1 : n }
     }
 }
 
-extension Sequence where  Element: Equatable {
+public extension Sequence where Element: Equatable {
     public func count(_ element: Element) -> Int {
         return count { $0 == element }
     }
 }
 
+public extension Array {
+    public func sorted<T: Comparable>(_ predicate: (Element) -> T) -> Array {
+        return sorted { predicate($0) < predicate($1) }
+    }
 
+    public func sortedDescending<T: Comparable>(_ predicate: (Element) -> T) -> Array {
+        return sorted { predicate($0) > predicate($1) }
+    }
+}
+
+public extension Array where Element: Comparable {
+    public func sortedDescending() -> Array {
+        return sorted { $0 > $1 }
+    }
+}
