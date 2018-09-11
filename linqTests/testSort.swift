@@ -42,7 +42,7 @@ class testSort: XCTestCase {
         XCTAssertEqual(users.sorted { $0.id }, ascending)
     }
 
-    func testOrderByDescending() {
+    func testSortedDescending() {
         XCTAssertEqual(list.sortedDescending(), [5, 3, 3, 2, 1])
         XCTAssertEqual(users.sortedDescending { $0.id }, descending)
     }

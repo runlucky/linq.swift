@@ -12,6 +12,10 @@ public extension Sequence {
     public func count(_ predicate: (Element) -> Bool) -> Int {
         return reduce(0) { n, element in predicate(element) ? n + 1 : n }
     }
+
+    public func all(_ predicate: (Element) -> Bool) -> Bool {
+        return !contains { !predicate($0) }
+    }
 }
 
 public extension Sequence where Element: Equatable {
