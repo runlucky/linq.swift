@@ -24,18 +24,18 @@ public extension Sequence where Element: Equatable {
     }
 }
 
-public extension Array {
-    public func sorted<T: Comparable>(_ predicate: (Element) -> T) -> Array {
+public extension Collection {
+    public func sorted<T: Comparable>(_ predicate: (Element) -> T) -> Array<Element> {
         return sorted { predicate($0) < predicate($1) }
     }
 
-    public func sortedDescending<T: Comparable>(_ predicate: (Element) -> T) -> Array {
+    public func sortedDescending<T: Comparable>(_ predicate: (Element) -> T) -> Array<Element> {
         return sorted { predicate($0) > predicate($1) }
     }
 }
 
-public extension Array where Element: Comparable {
-    public func sortedDescending() -> Array {
+public extension Collection where Element: Comparable {
+    public func sortedDescending() -> Array<Element> {
         return sorted { $0 > $1 }
     }
 }
