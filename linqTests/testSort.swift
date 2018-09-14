@@ -46,5 +46,6 @@ class testSort: XCTestCase {
         XCTAssertEqual(list.sortedDescending(), [5, 3, 3, 2, 1])
         XCTAssertEqual(users.sortedDescending { $0.id }, descending)
     }
+    
 }
 
