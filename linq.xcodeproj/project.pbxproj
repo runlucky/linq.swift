@@ -14,6 +14,7 @@
 		08DC389C214629C50075B788 /* linq.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DC388E214629C50075B788 /* linq.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08DC38A6214629FD0075B788 /* linq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC38A5214629FD0075B788 /* linq.swift */; };
 		19BDC5932148090400B04454 /* testAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BDC5922148090400B04454 /* testAll.swift */; };
+		19BDC595214BD00300B04454 /* testAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BDC594214BD00300B04454 /* testAverage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		08DC389B214629C50075B788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08DC38A5214629FD0075B788 /* linq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linq.swift; sourceTree = "<group>"; };
 		19BDC5922148090400B04454 /* testAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAll.swift; sourceTree = "<group>"; };
+		19BDC594214BD00300B04454 /* testAverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAverage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				089B8BD721462DD300BEA656 /* testCount.swift */,
 				086CB70E21466BDF0016F1B9 /* testSort.swift */,
 				19BDC5922148090400B04454 /* testAll.swift */,
+				19BDC594214BD00300B04454 /* testAverage.swift */,
 			);
 			path = linqTests;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				089B8BD821462DD300BEA656 /* testCount.swift in Sources */,
 				086CB70F21466BDF0016F1B9 /* testSort.swift in Sources */,
 				19BDC5932148090400B04454 /* testAll.swift in Sources */,
+				19BDC595214BD00300B04454 /* testAverage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
