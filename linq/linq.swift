@@ -22,6 +22,12 @@ public extension Sequence where Element: Equatable {
     public func count(_ element: Element) -> Int {
         return count { $0 == element }
     }
+
+    public func except(_ list: Array<Element>) -> Array<Element> {
+        return self.filter {element in
+            !list.contains { element == $0 }
+        }
+    }
 }
 
 public extension Collection {
