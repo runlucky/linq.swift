@@ -19,7 +19,7 @@ Distinct            |                    |
 ElementAt           |                    |
 ElementAtOrDefault  |                    |
 Empty               |                    |
-Except              |                    |
+Except              |                    | except
 First               |                    |
 FirstOrDefault      | first              |
 GroupBy             |                    |
