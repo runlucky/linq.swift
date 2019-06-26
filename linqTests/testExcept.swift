@@ -16,6 +16,8 @@ class testExcept: XCTestCase {
 
     func testExcept() {
         XCTAssertEqual(list.except([4, 5, 6]) , [3, 2, 3])
+        XCTAssertEqual(list.except([6, 7, 8]) , [3, 4, 2, 3, 5])
+        XCTAssertEqual(list.except([2, 3, 4, 5]) , [])
 
     }
 
